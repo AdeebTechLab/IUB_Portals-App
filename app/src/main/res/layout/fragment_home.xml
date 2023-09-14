@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/screen"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="none"
+
+        tools:ignore="UnknownId">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/button1"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/eportal" />
+
+                <Button
+                    android:id="@+id/button2"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/entry_test" />
+
+                <Button
+                    android:id="@+id/button3"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/admissions" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button4"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hostel"/>
+
+                <Button
+                    android:id="@+id/button5"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/my_iub"/>
+
+                <Button
+                    android:id="@+id/button6"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/lms"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/button7"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/class_time" />
+
+                <Button
+                    android:id="@+id/button8"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/point_time" />
+
+                <Button
+                    android:id="@+id/button9"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/vehicle_entry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button10"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/my_documents"/>
+
+                <Button
+                    android:id="@+id/button11"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/scholarships"/>
+
+                <Button
+                    android:id="@+id/button12"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/repeat_course"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/slip"/>
+
+                <Button
+                    android:id="@+id/button14"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/email"/>
+
+                <Button
+                    android:id="@+id/button15"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/data_storage"/>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/view"
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="1dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button16"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/live_chat"/>
+
+                <Button
+                    android:id="@+id/button17"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/announcements"/>
+
+                <Button
+                    android:id="@+id/button18"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/contact_email"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
