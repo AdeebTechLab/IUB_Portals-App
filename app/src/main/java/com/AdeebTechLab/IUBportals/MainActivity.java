@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
                 replaceFragment(new PolicyFragment());
             } else if (itemId == R.id.ss) {
                 replaceFragment(new ShareFragment());
+            } else if (itemId == R.id.aa) {
+                replaceFragment(new OtherFragment());
             }
 
 

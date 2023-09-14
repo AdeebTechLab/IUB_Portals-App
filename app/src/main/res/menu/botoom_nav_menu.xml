@@ -21,5 +21,10 @@
         android:title="Share App"
         android:icon="@drawable/share"/>
 
+    <item
+        android:id="@+id/aa"
+        android:title="Other"
+        android:icon="@drawable/laptop_icon"/>
+
 
 </menu>

@@ -10,8 +10,8 @@ android {
         applicationId "com.AdeebTechLab.IUBportals"
         minSdk 24
         targetSdk 33
-        versionCode 15
-        versionName "1.5"
+        versionCode 16
+        versionName "1.6"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
