@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
 
 public class HomeFragment extends Fragment {
@@ -15,6 +16,7 @@ public class HomeFragment extends Fragment {
 
     Button b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18;
 
+    LinearLayout layout;
 
 
     @Override
@@ -238,6 +240,21 @@ public class HomeFragment extends Fragment {
                 String url = "https://www.iub.edu.pk/contact";
                 Intent i = new Intent(getActivity(), website.class);
                 i.putExtra("url",url);
+                startActivity(i);
+            }
+        });
+
+
+
+        layout = view.findViewById(R.id.ads);
+        //Button------------------------------------------------------------
+
+        layout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "https://play.google.com/store/apps/details?id=com.adeebtechlab.apps";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
                 startActivity(i);
             }
         });
