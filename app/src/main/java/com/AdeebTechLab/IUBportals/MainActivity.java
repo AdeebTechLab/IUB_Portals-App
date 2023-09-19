@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
 
+        getSupportActionBar().setTitle("All Portal The Islamia University of Bahawalpur");
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
 
