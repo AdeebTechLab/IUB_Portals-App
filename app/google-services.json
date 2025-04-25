@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "282874500111",
+    "project_id": "iub-portals",
+    "storage_bucket": "iub-portals.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282874500111:android:69394dc538dc9e437bff7a",
+        "android_client_info": {
+          "package_name": "com.AdeebTechLab.IUBportals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282874500111-a6gdavdn2a4hp8mhjvqtt8mufmjp58eh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.AdeebTechLab.IUBportals",
+            "certificate_hash": "e9c0befbe49759af2c5ddccdbb9969cf518844cd"
+          }
+        },
+        {
+          "client_id": "282874500111-6c90igasevustqvd6u50ve3d7et0g9r3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA7645kzh-_tuPUaHyfT-IrxXnIAzPAbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282874500111-6c90igasevustqvd6u50ve3d7et0g9r3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

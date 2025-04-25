@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="border_200">#003060</color>
+    <color name="purple_700">#003471</color>
+    <color name="Yello">#e4ab31</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hafe_white">#d5d4d4</color>
+    <color name="bbbbb">#002e60</color>
+    <color name="yyyyy">#e4ab31</color>
+    <color name="button_text">#FF000000</color>
+
+</resources>
