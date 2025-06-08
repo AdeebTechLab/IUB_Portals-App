@@ -35,16 +35,6 @@ public class Policy extends AppCompatActivity {
 
 
 
-        //------------Button----------------------------------------
-
-        sha.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Policy.this, Share.class);
-                startActivity(intent);
-
-            }
-        });
 
 
         //------------Button----------------------------------------

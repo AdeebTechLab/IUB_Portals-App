@@ -36,7 +36,6 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/linearLayout2"
         android:layout_below="@+id/bar"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
@@ -241,79 +240,6 @@
     </ScrollView>
 
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/buttome_backgrund"
-        android:gravity="bottom"
-        android:orientation="horizontal"
-        android:paddingBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="parent">
 
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-
-        <Button
-            android:id="@+id/news"
-            android:layout_width="20dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:background="@drawable/share_bt" />
-
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-
-        <Button
-            android:id="@+id/home"
-            android:layout_width="20dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:background="@drawable/home_bt" />
-
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-
-        <LinearLayout
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:background="@drawable/circle_24"
-            android:gravity="center"
-            android:orientation="vertical">
-
-            <pl.droidsonroids.gif.GifImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/other_gif" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Help"
-                android:textAlignment="center"
-                android:textColor="@color/purple_700"
-                android:textSize="12dp" />
-        </LinearLayout>
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-    </LinearLayout>
 
 </RelativeLayout>

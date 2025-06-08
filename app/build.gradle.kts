@@ -11,8 +11,8 @@ android {
         applicationId = "com.AdeebTechLab.IUBportals"
         minSdk = 23
         targetSdk = 34
-        versionCode = 51
-        versionName = "5.1"
+        versionCode = 53
+        versionName = "5.3"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -19,6 +20,7 @@ public class Home extends AppCompatActivity {
     TextView eportal, myiub,lms;
 
 
+
     Button ads_softwear,ads_extention,ads_app,ads_stiker;
     private CardView  AdmissionLastDate, FeeStructure, MeritList, Student_Card, TransportSchedule, Download_Forms, Entry_Test, Generate_Challan, Class_Time, Admissions, My_Documents,Hostel, Hostel_Required_Items, Vehicle_Entry, My_Clearance, Roll_No_Slip, Repeat_Course, Scholarships, Short_Courses , IUB_Email, Students_Societies, Live_Chat, Announcements, Contact_No;
 
@@ -28,6 +30,11 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         getSupportActionBar().setTitle("Dashboard");
+
+
+
+
+
 
 
 

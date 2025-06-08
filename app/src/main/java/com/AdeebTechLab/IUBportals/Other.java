@@ -28,7 +28,7 @@ public class Other extends AppCompatActivity {
 
 
 
-        news = findViewById(R.id.news);
+
         home = findViewById(R.id.home);
 
 
@@ -158,16 +158,7 @@ public class Other extends AppCompatActivity {
 
 
 
-        //------------Button----------------------------------------
 
-        news.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Other.this, Share.class);
-                startActivity(intent);
-
-            }
-        });
 
 
         //------------Button----------------------------------------

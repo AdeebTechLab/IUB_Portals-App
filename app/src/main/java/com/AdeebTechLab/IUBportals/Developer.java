@@ -25,7 +25,7 @@ public class Developer extends AppCompatActivity {
 
 
         sha = findViewById(R.id.share);
-        pol = findViewById(R.id.policy);
+
         oth = findViewById(R.id.other);
         hom = findViewById(R.id.home);
 
@@ -33,28 +33,8 @@ public class Developer extends AppCompatActivity {
 
 
 
-        //------------Button----------------------------------------
-
-        sha.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Developer.this, Share.class);
-                startActivity(intent);
-
-            }
-        });
 
 
-        //------------Button----------------------------------------
-
-        pol.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Developer.this, Policy.class);
-                startActivity(intent);
-
-            }
-        });
 
         //------------Button----------------------------------------
 

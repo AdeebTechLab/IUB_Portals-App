@@ -15,7 +15,7 @@
           <targets>
             <Target type="DEFAULT_BOOT">
               <handle>
-                <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Adeeb\.android\avd\Pixel_6_API_31.avd" />
+                <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Adeeb Technology Lab\.android\avd\Pixel_6_Pro.avd" />
               </handle>
             </Target>
           </targets>

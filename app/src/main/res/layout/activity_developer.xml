@@ -195,8 +195,10 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="30dp"
-                android:text="●I’ll Help You In👉🏻 Computer, Phone, Games, Internet, Hacking, Short Courses, Online Earning and Social Media
-Accounts Security." />
+                android:text="Hello Myself Salman Adeeb!
+I am the CEO of Adeeb Technology Lab. I am a Graphic Designer, Video Editor, Developer and Cyber Security Expert. I have been working in the Technology field for almost Eight years. I have also worked with some companies which includes IUB, AndroidBull, RahamTV, GCT Bwp and many more. If you guys also want to learn some work or want to hire me, then you can check my portfolio. If you guys also want to have knowledge about technology then you can join my WhatsApp community channel.
+Thank you for Paying Attention!
+" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -270,118 +272,7 @@ Accounts Security." />
 
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/buttome_backgrund"
-        android:gravity="bottom"
-        android:orientation="horizontal"
-        android:paddingBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="parent">
 
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-
-        <LinearLayout
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:background="@drawable/circle_24"
-            android:gravity="center"
-            android:orientation="vertical">
-
-            <pl.droidsonroids.gif.GifImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/develper_gif" />
-
-            <TextView
-                android:id="@+id/textViesw2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Developer"
-                android:textAlignment="center"
-                android:textColor="@color/purple_700"
-                android:textSize="12dp" />
-        </LinearLayout>
-
-
-
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-
-
-
-        <Button
-            android:id="@+id/policy"
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:background="@drawable/policy_bt" />
-
-
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-
-        <Button
-            android:id="@+id/home"
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:background="@drawable/home_bt" />
-
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-
-
-        <Button
-            android:id="@+id/share"
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:background="@drawable/share_bt" />
-
-
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-
-        <Button
-            android:id="@+id/other"
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:background="@drawable/other_bt" />
-
-
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-
-
-    </LinearLayout>
 
 
 
