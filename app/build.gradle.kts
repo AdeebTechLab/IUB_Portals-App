@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace = "com.AdeebTechLab.IUBportals"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.AdeebTechLab.IUBportals"
         minSdk = 23
-        targetSdk = 34
-        versionCode = 53
-        versionName = "5.3"
+        targetSdk = 35
+        versionCode = 54
+        versionName = "5.4"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
