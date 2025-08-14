@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:fontFamily="@font/times_new_roman"
-        android:text="Application Version 0.5.2   "
+        android:text="Application Version 0.5.5   "
         android:textColor="@color/white"
         android:textSize="10dp"
         android:textStyle="italic|bold"
@@ -903,6 +903,8 @@
 
             </LinearLayout>
 
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -910,6 +912,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="5dp"
                 android:orientation="horizontal">
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -986,6 +989,7 @@
                         android:textColor="@color/button_text"
                         android:textSize="12dp" />
                 </LinearLayout>
+
 
             </LinearLayout>
 

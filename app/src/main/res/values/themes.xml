@@ -5,6 +5,5 @@
         <item name="colorPrimaryDark">@color/purple_700</item>
         <item name="colorAccent">@color/border_200</item>
     </style>
-
     <style name="Theme.IUBPortals" parent="Base.Theme.IUBPortals" />
 </resources>

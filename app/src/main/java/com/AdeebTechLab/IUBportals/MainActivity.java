@@ -20,14 +20,13 @@ public class MainActivity extends AppCompatActivity {
 
 
     Button ads_softwear,ads_extention,ads_app,ads_stiker;
-    private CardView AdmissionLastDate, FeeStructure, MeritList, Student_Card, TransportSchedule, Download_Forms, Entry_Test, Generate_Challan, Class_Time, Admissions, My_Documents,Hostel, Hostel_Required_Items, Vehicle_Entry, My_Clearance, Roll_No_Slip, Repeat_Course, Scholarships, Short_Courses , IUB_Email, Students_Societies, Live_Chat, Announcements, Contact_No;
+    private CardView HosstalCancellationForm, AdmissionLastDate, FeeStructure, MeritList, Student_Card, TransportSchedule, Download_Forms, Entry_Test, Generate_Challan, Class_Time, Admissions, My_Documents,Hostel, Hostel_Required_Items, Vehicle_Entry, My_Clearance, Roll_No_Slip, Repeat_Course, Scholarships, Short_Courses , IUB_Email, Students_Societies, Live_Chat, Announcements, Contact_No;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().setTitle("Dashboard");
 
 
 
@@ -36,6 +35,16 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        //Button------------------------------------------------------------
+        HosstalCancellationForm=(CardView) findViewById(R.id.HosstalCancellationForm);
+        HosstalCancellationForm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "https://drive.google.com/file/d/1IKEddyTG1E8yNDcKIrRLNE8GXkD_t1JG/view";
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(i);
+            }
+        });
 
 
 
