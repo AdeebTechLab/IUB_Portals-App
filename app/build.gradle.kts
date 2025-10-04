@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace = "com.AdeebTechLab.IUBportals"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.AdeebTechLab.IUBportals"
         minSdk = 23
-        targetSdk = 35
-        versionCode = 55
-        versionName = "5.5"
+        targetSdk = 36
+        versionCode = 56
+        versionName = "5.6"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -30,34 +30,38 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+
+    ndkVersion = "29.0.14033849" // e.g.,  ndkVersion "21.3.6528147"
 }
 
 dependencies {
 
-    implementation("androidx.appcompat:appcompat:1.7.0")
-    implementation("com.google.android.material:material:1.12.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.2.0")
-    implementation("com.google.firebase:firebase-messaging-ktx:24.0.3")
-    implementation("com.google.firebase:firebase-auth-ktx:23.1.0")
-    implementation("androidx.activity:activity:1.9.3")
+    implementation("androidx.appcompat:appcompat:1.7.1")
+    implementation("com.google.android.material:material:1.13.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.2.1")
+    implementation("com.google.firebase:firebase-messaging-ktx:24.1.2")
+    implementation("com.google.firebase:firebase-auth-ktx:23.2.1")
+    implementation("androidx.activity:activity:1.11.0")
     testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.2.1")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
-    implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.28")
-    implementation("com.onesignal:OneSignal:5.1.23")
+    androidTestImplementation("androidx.test.ext:junit:1.3.0")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.7.0")
+    //noinspection Aligned16KB
+    implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.29")
+    implementation("com.onesignal:OneSignal:5.1.37")
 
 
     implementation ("com.github.SanojPunchihewa:GlowButton:1.0.1")
     implementation(kotlin("script-runtime"))
 
     // Import the Firebase BoM
-    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
+    implementation(platform("com.google.firebase:firebase-bom:34.3.0"))
 
     // When using the BoM, don't specify versions in Firebase dependencies
     implementation("com.google.firebase:firebase-analytics")
 
 
-    //noinspection GradleDependency
+    //noinspection NewerVersionAvailable,GradleDependency
     implementation("com.onesignal:OneSignal:[5.0.0, 5.99.99]")
 
 
